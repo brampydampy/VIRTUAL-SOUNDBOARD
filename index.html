@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Soundboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="main-title">My Soundboard</h1>
+    <div id="img">
+        <img id="pad" src="/img/Drumpad.png" alt="drumpad">
+    </div>
+    <div id="audio">
+        <!-- E -->
+        <audio data-key="69"
+        src="/audio/boom.mp3"></audio>
+        <!-- R -->
+        <audio data-key="82"
+        src="/audio/baby.mp3"></audio>
+        <!-- T -->
+        <audio data-key="84"
+        src="/audio/knock.mp3"></audio>
+        <!-- Y -->
+        <audio data-key="89"
+        src="/audio/sitcom.mp3"></audio>
+        <!-- D -->
+        <audio data-key="68"
+        src="/audio/laugh-long.ogg"></audio>
+        <!-- F -->
+        <audio data-key="70"
+        src="/audio/laugh-short.ogg"></audio>
+        <!-- G -->
+        <audio data-key="71"
+        src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/hihat-open.wav"></audio>
+        <!-- H -->
+        <audio data-key="72"
+        src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/hihat-close.wav"></audio>
+        <!-- C -->
+        <audio data-key="67"
+        src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/kick.wav"></audio>
+        <!-- V -->
+        <audio data-key="86"
+        src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/snare.wav"></audio>
+        <!-- B -->
+        <audio data-key="66"
+        src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/tom-low.wav"></audio>
+        <!-- N -->
+        <audio data-key="78"
+        src="https://raw.githubusercontent.com/ArunMichaelDsouza/javascript-30-course/master/src/01-javascript-drum-kit/sounds/crash.wav"></audio>
+
+    </div>
+   
+
+    <div data-key="69" class="key" id="E">
+        <kbd>E</kbd>
+    </div>
+    <div data-key="82" class="key" id="R">
+        <kbd>R</kbd>
+    </div>
+
+    <div data-key="84" class="key" id="T">
+        <kbd>T</kbd>
+    </div>
+    <div data-key="89" class="key" id="Y">
+        <kbd>Y</kbd>
+    </div>
+    <div data-key="68" class="key" id="D">
+        <kbd>D</kbd>
+    </div>
+    <div data-key="70" class="key" id="F">
+        <kbd>F</kbd>
+    </div>
+    <div data-key="71" class="key" id="G">
+        <kbd>G</kbd>
+    </div>
+    <div data-key="72" class="key" id="H">
+        <kbd>H</kbd>
+    </div>
+    
+    <div data-key="67" class="key" id="C">
+        <kbd>C</kbd>
+    </div>
+    <div data-key="86" class="key" id="V">
+        <kbd>V</kbd>
+    </div>
+    <div data-key="66" class="key" id="B">
+        <kbd>B</kbd>
+    </div>
+    <div data-key="78" class="key" id="N">
+        <kbd>N</kbd>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
